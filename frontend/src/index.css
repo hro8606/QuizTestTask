@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+
+@layer{
+    body{
+        background-color: #212833;
+        font-family: 'Montserrat', sans-serif;
+        @apply bg-gray-100
+    }
+    .box-back{
+        background-color: #212833;
+    }
+    #root{
+        background-color: #212833;
+    }
+    .options-button{
+        color: black;
+        border: 1px solid #212833!important
+    }
+    #cup{
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    /*#quizMode{*/
+    /*    position: absolute;*/
+    /*    left: 15px;*/
+    /*    top: 15px;*/
+    /*}*/
+}
